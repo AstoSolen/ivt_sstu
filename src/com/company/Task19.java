@@ -12,8 +12,8 @@ public class Task19 {
         System.out.println("Average is " + findAvg(array));
     }
 
-    protected static int findAvg(int[] array) {
-        int result = 0;
+    protected static double findAvg(int[] array) {
+        double result = 0;
         for (int elem : array) {
             result += elem;
         }
