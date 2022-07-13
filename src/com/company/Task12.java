@@ -15,7 +15,7 @@ public class Task12 {
     protected static int findMultiplication(int[] array) {
         int result = 1;
         for (int elem : array) {
-            if (elem % 2 == 0) {
+            if (elem % 2 == 0 && elem != 0) {
                 result *= elem;
             }
         }
